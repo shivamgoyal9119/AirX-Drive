@@ -52,15 +52,15 @@ React Frontend → User interface
 
 ⚙️ Project Structure:  
 
-arx-drive/
-│   
-├── eureka-server/      # Service discovery server   
-├── api-gateway/        # API Gateway for routing  
-├── file-service/       # Handles file operations
-├── folder-service/     # Manages folder structure  
-├── admin-service/      # Admin panel backend
-├── frontend/           # React UI
-└── README.md  
+arx-drive/                  
+│               
+├── eureka-server/      # Service discovery server            
+├── api-gateway/        # API Gateway for routing               
+├── file-service/       # Handles file operations               
+├── folder-service/     # Manages folder structure                             
+├── admin-service/      # Admin panel backend                        
+├── frontend/           # React UI                        
+└── README.md              
 
 🔄 How It Works
 . React frontend sends request → API Gateway

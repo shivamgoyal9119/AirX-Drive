@@ -16,4 +16,9 @@ public class Config implements WebMvcConfigurer {
                 .allowCredentials(true);
     }
 
+    @Bean
+    public Retryer feginRetryer(){
+        return Retryer.NEVER_RETRY;
+    }
+
 }
